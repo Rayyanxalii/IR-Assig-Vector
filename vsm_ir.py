@@ -219,9 +219,9 @@ def evaluate(retrieved: set, relevant: set) -> dict:
     return {"precision": precision, "recall": recall, "f1": f1}
 
 
+# variables for CLI display
 BANNER = """
-   Vector Space Model (VSM) – Information Retrieval       
-     CS4051 | Spring 2026 | Trump Speeches (56 docs)       
+   Vector Space Model (VSM) – Information Retrieval             
 
 """
 
